@@ -1,65 +1,84 @@
-HEADING
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exceptional Realty Group - Luxury Homes - Contact</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+</head>
+<body>
+  <header>
+    <div id="logo">
+      <h1>Exceptional</h1>
+      <h2>Realty Group</h2>
+    </div>
 
-`Welcome to Riyadh`
+    <nav>
+      <a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings.html">Listings</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
+    </nav>
+  </header>
 
-SUB HEAD
+  <h3>Contact</h3>
 
-`Where A Traditional Past Meets A Modern Future.`
+  <section>
+    <!-- Map -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6049.760881033193!2d-73.99517294629514!3d40.69863072747073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a47df06b185%3A0xc889234bc07c42ee!2sBrooklyn+Heights!5e0!3m2!1sen!2sus!4v1393612605402" width="425" height="350" frameborder="0" style="border:0"></iframe>
+  </section>
 
-IMAGE 1 FILE
 
-`transit.jpg`
+  <section>
+    <!-- Contact Form -->
+    <form action="#" method="post">
+      <label for="fullname">Name</label>
+      <input type="text" id="fullname" name="fullname" placeholder="your name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="your email" required>
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="phone" placeholder="your phone (optional)">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="10"></textarea>
+      <input type="submit" value="send">
+    </form>
+  </section>
 
-IMAGE 1 ALT TEXT
+  <section id="details">
+      <div>
+        <h3>Contact</h3>
+        <p>
+          email: <a href="mailto:info@exceptionalrealty.com">info@exceptionalrealty.com</a><br>
+          phone: +1 710 555 1234
+        </p>
+        <h3>Correspondence</h3>
+        <address>
+          Exceptional Realty<br>
+          P.O.Box 5555<br>
+          Brooklyn, NY 11201
+        </address>
+      </div>
 
-`Modern Transit`
+      <div>
+        <h3>Links</h3>
+        <p>
+          <a href="#" target="_blank">Home Restoration</a><br>
+          <a href="#" target="_blank">Afordable Mortgages</a><br>
+          <a href="#" target="_blank">Professional Moving Crew</a>
+        </p>
+      </div>
 
-SMALLER SUB HEAD
+      <div>
+        <h3>Follow</h3>
+        <p>
+          <a href="#" target="_blank">Youtube</a><br>
+          <a href="#" target="_blank">Facebook</a><br>
+          <a href="#" target="_blank">Twitter</a>
+        </p>
+      </div>
+    </section>
 
-`Travel`
+    <footer>
+      &copy; 2014 Exceptional Realty. All Rights Reserved.
+    </footer>
 
-PARAGRAPH 1
-
-`Once a mudbrick waystation along desert trading routes, Riyadh is now one of the wealthiest cities in the world. The country’s political, financial and administrative capital is also a city with a fascinating subtext.`
-
-SMALLER SUB HEAD
-
-`History`
-
-PARAGRAPH 2
-
-`Riyadh (/rɨˈjɑːd/; Arabic: الرياض‎ ar-Riyāḍ pronounced [arːiˈjɑːdˤ],"The Gardens") is the capital and largest city of Saudi Arabia. It is also the capital of Riyadh Province, and belongs to the historical regions of Najd and Al-Yamama. It is situated in the center of the Arabian Peninsula on a large plateau, and is home to 5,254,560 people, and the urban center of a region with a population of close to 7 million people.`
-
-IMAGE 2 FILE
-
-`garden.jpg`
-
-IMAGE 2 ALT TEXT
-
-`Riyadh Garden`
-
-PARAGRAPH 3
-
-`The city is divided into 15 municipal districts, managed by Riyadh Municipality headed by the mayor of Riyadh, and the Riyadh Development Authority, chaired by the governor of Riyadh Province, Khalid bin Bandar Al Saud. The current mayor of Riyadh is Abdullah bin Abdul Rahman Al Mogbel, appointed in 2012. Riyadh has the largest all female university in the world, the Princess Nora bint Abdulrahman University. It has been designated as a Beta World City.`
-
-IMAGE 3 FILE
-
-`camels-in-truck.jpg`
-
-IMAGE 3 ALT TEXT
-
-`The roads of Riyadh`
-
-SMALLER SUB HEAD
-
-`Sources`
-
-LINK 1
-
-`Lonely Planet`
-`http://www.lonelyplanet.com/saudi-arabia/riyadh`
-
-LINK 2
-
-`Wikipedia`
-`http://en.wikipedia.org/wiki/Riyadh`
+</body>
+</html>
